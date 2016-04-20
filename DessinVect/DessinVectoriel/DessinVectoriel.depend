@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1427469662 source:c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\format\cbitmap.cpp
+	"CBitmap.h"
+
+1427469662 c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\format\cbitmap.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<string>
+	<fstream>
+	"../Image/CImage.h"
+
+1427469662 c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\image\cimage.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<string>
+	"CLigne.h"
+
+1427469662 c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\image\cligne.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<string>
+	"CPixel.h"
+
+1427469662 c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\image\cpixel.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<string>
+
+1460578082 source:c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\formes\cercle.cpp
+	"Cercle.h"
+	<math.h>
+
+1460469526 c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\formes\cercle.h
+	"forme.h"
+
+1460990928 c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\formes\forme.h
+	<string>
+	"../Format/CBitmap.h"
+
+1460578067 source:c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\formes\cercles.cpp
+	"cercleS.h"
+	<math.h>
+
+1460472410 c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\formes\cercles.h
+	"./Cercle.h"
+
+1460990942 source:c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\formes\forme.cpp
+	"forme.h"
+
+1460990867 source:c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\formes\ligne.cpp
+	"ligne.h"
+	<math.h>
+
+1460990867 c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\formes\ligne.h
+	"forme.h"
+
+1460474297 source:c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\formes\point.cpp
+	"point.h"
+
+1460472523 c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\formes\point.h
+	"./Cercle.h"
+
+1427469662 source:c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\image\cimage.cpp
+	"CImage.h"
+
+1427469662 source:c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\image\cligne.cpp
+	"CLigne.h"
+
+1459867662 source:c:\users\arthur\desktop\dessinvect\dessinvectoriel\src\image\cpixel.cpp
+	"CPixel.h"
+

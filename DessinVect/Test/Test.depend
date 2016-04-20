@@ -1,0 +1,122 @@
+# depslib dependency file v1.0
+1461058645 source:c:\users\arthur\desktop\dessinvect\test\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<vector>
+	<string>
+	"./src/Format/CBitmap.h"
+	"./src/Formes/ligne.h"
+	"./src/Formes/Cercle.h"
+	"./src/Formes/cercleS.h"
+	"./src/Formes/point.h"
+	"./src/Formes/triangle.h"
+	"./src/Formes/rectangle.h"
+	"./src/Formes/carre.h"
+	"./src/Formes/rectangles.h"
+	"./src/Formes/carres.h"
+
+1427469662 c:\users\arthur\desktop\dessinvect\test\src\format\cbitmap.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<string>
+	<fstream>
+	"../Image/CImage.h"
+
+1427469662 c:\users\arthur\desktop\dessinvect\test\src\image\cimage.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<string>
+	"CLigne.h"
+
+1427469662 c:\users\arthur\desktop\dessinvect\test\src\image\cligne.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<string>
+	"CPixel.h"
+
+1427469662 c:\users\arthur\desktop\dessinvect\test\src\image\cpixel.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<string>
+
+1461054862 c:\users\arthur\desktop\dessinvect\test\src\formes\ligne.h
+	"forme.h"
+
+1461058645 c:\users\arthur\desktop\dessinvect\test\src\formes\forme.h
+	<string>
+	"../Format/CBitmap.h"
+
+1461050848 c:\users\arthur\desktop\dessinvect\test\src\formes\cercle.h
+	"forme.h"
+
+1460472410 c:\users\arthur\desktop\dessinvect\test\src\formes\cercles.h
+	"./Cercle.h"
+
+1461052723 c:\users\arthur\desktop\dessinvect\test\src\formes\point.h
+	"./cercleS.h"
+
+1427469662 source:c:\users\arthur\desktop\dessinvect\test\src\format\cbitmap.cpp
+	"CBitmap.h"
+
+1460993622 source:c:\users\arthur\desktop\dessinvect\test\src\formes\carre.cpp
+	"carre.h"
+
+1461051275 c:\users\arthur\desktop\dessinvect\test\src\formes\carre.h
+	"rectangle.h"
+
+1461051275 c:\users\arthur\desktop\dessinvect\test\src\formes\rectangle.h
+	"ligne.h"
+
+1460993622 source:c:\users\arthur\desktop\dessinvect\test\src\formes\carres.cpp
+	"carres.h"
+
+1460473272 c:\users\arthur\desktop\dessinvect\test\src\formes\carres.h
+	"rectangles.h"
+
+1460473336 c:\users\arthur\desktop\dessinvect\test\src\formes\rectangles.h
+	"rectangle.h"
+
+1461052317 source:c:\users\arthur\desktop\dessinvect\test\src\formes\cercle.cpp
+	"Cercle.h"
+	<math.h>
+
+1461052952 source:c:\users\arthur\desktop\dessinvect\test\src\formes\cercles.cpp
+	"cercleS.h"
+	<math.h>
+
+1461050848 source:c:\users\arthur\desktop\dessinvect\test\src\formes\forme.cpp
+	"forme.h"
+
+1461057726 source:c:\users\arthur\desktop\dessinvect\test\src\formes\ligne.cpp
+	"ligne.h"
+	<math.h>
+
+1461053231 source:c:\users\arthur\desktop\dessinvect\test\src\formes\point.cpp
+	"point.h"
+
+1461057726 source:c:\users\arthur\desktop\dessinvect\test\src\formes\rectangle.cpp
+	"rectangle.h"
+
+1460993622 source:c:\users\arthur\desktop\dessinvect\test\src\formes\rectangles.cpp
+	"rectangles.h"
+
+1427469662 source:c:\users\arthur\desktop\dessinvect\test\src\image\cimage.cpp
+	"CImage.h"
+
+1427469662 source:c:\users\arthur\desktop\dessinvect\test\src\image\cligne.cpp
+	"CLigne.h"
+
+1461058479 source:c:\users\arthur\desktop\dessinvect\test\src\image\cpixel.cpp
+	"CPixel.h"
+
+1460994492 source:c:\users\arthur\desktop\dessinvect\test\src\formes\triangle.cpp
+	"triangle.h"
+
+1460994491 c:\users\arthur\desktop\dessinvect\test\src\formes\triangle.h
+	"ligne.h"
+

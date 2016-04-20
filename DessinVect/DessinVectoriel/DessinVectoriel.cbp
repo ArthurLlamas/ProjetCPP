@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DessinVectoriel" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="src\Formes\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DessinVectoriel" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="src/Formes" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DessinVectoriel" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="src/Formes" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Format/CBitmap.cpp" />
+		<Unit filename="src/Format/CBitmap.h" />
+		<Unit filename="src/Formes/Cercle.cpp" />
+		<Unit filename="src/Formes/Cercle.h" />
+		<Unit filename="src/Formes/cercleS.cpp" />
+		<Unit filename="src/Formes/cercleS.h" />
+		<Unit filename="src/Formes/forme.cpp" />
+		<Unit filename="src/Formes/forme.h" />
+		<Unit filename="src/Formes/ligne.cpp" />
+		<Unit filename="src/Formes/ligne.h" />
+		<Unit filename="src/Formes/point.cpp" />
+		<Unit filename="src/Formes/point.h" />
+		<Unit filename="src/Image/CImage.cpp" />
+		<Unit filename="src/Image/CImage.h" />
+		<Unit filename="src/Image/CLigne.cpp" />
+		<Unit filename="src/Image/CLigne.h" />
+		<Unit filename="src/Image/CPixel.cpp" />
+		<Unit filename="src/Image/CPixel.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
